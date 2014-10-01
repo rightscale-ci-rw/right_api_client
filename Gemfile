@@ -18,5 +18,5 @@ group :test do
   gem 'ruby-debug',
       :platforms => [:ruby_18]
   gem 'jeweler', '~> 2.0'
-  gem "codeclimate-test-reporter", require: nil
 end
+gem "codeclimate-test-reporter", require: nil
