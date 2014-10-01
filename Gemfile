@@ -20,4 +20,5 @@ group :test do
   gem 'debugger',
       :platforms => [:ruby_19, :ruby_20, :ruby_21]
   gem 'jeweler', '~> 2.0'
+  gem "codeclimate-test-reporter", require: nil
 end

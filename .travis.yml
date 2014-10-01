@@ -1,9 +1,9 @@
 language: ruby
 rvm:
-  - 1.8.7
-  - 1.9.3
-  - 2.0.0
   - 2.1.0
+addons:
+  code_climate:
+    repo_token: 8e6a9b77cd8ecf02112be5077ef267fa80c2f1dca478bd5492f803d5054333ca
 script: 
   - RACK_ENV=test bundle exec rspec spec
 bundler_args: --without test
